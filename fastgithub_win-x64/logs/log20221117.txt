@@ -1,0 +1,2004 @@
+2022-11-17T21:09:48.9380696+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-11-17T21:09:49.1021203+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-11-17T21:09:49.1059634+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-11-17T21:09:49.1073645+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-11-17T21:09:49.2938113+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.3，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-11-17T21:11:06.5521324+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-11-17T21:11:06.5549990+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-11-17T21:11:12.4847206+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 2846.8295 ms
+
+2022-11-17T21:11:12.6925121+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:11:12.7823449+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-11-17T21:11:12.8058500+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:11:14.1399411+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3]
+
+2022-11-17T21:11:14.5448114+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-unicat22.png responded 304 in 1406.8371 ms
+
+2022-11-17T21:11:14.5448987+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/hero-drone.webp responded 304 in 1406.9133 ms
+
+2022-11-17T21:11:14.6080591+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp responded 304 in 1470.1894 ms
+
+2022-11-17T21:11:14.6080587+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home/globe.jpg responded 304 in 869.3666 ms
+
+2022-11-17T21:11:14.7348043+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2022-11-17T21:11:14.7918306+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png responded 304 in 211.6786 ms
+
+2022-11-17T21:11:14.7918305+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp responded 304 in 212.4538 ms
+
+2022-11-17T21:11:14.8201293+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png responded 304 in 231.9775 ms
+
+2022-11-17T21:11:14.8286240+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-11-17T21:11:15.0552432+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.svg responded 200 in 270.1316 ms
+
+2022-11-17T21:11:15.2614609+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-cursor.png responded 304 in 334.5372 ms
+
+2022-11-17T21:11:15.5044465+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 434.7591 ms
+
+2022-11-17T21:11:15.9048041+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2022-11-17T21:11:17.4807645+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 1905.7722 ms
+
+2022-11-17T21:11:17.6246622+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1951.096 ms
+
+2022-11-17T21:11:17.6408909+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5]
+
+2022-11-17T21:11:18.4722694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.113.22]
+
+2022-11-17T21:11:23.3986557+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 525.144 ms
+
+2022-11-17T21:11:23.5064316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 634.4033 ms
+
+2022-11-17T21:11:23.9007600+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 936.0903 ms
+
+2022-11-17T21:11:24.2304119+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 1331.7746 ms
+
+2022-11-17T21:11:24.8428011+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 544.0623 ms
+
+2022-11-17T21:11:25.2170420+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 472.2517 ms
+
+2022-11-17T21:11:31.2449780+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.22]
+
+2022-11-17T21:11:37.0602988+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 907.0977 ms
+
+2022-11-17T21:11:37.4411687+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1319.1557 ms
+
+2022-11-17T21:11:38.6436620+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 478.8978 ms
+
+2022-11-17T21:11:42.2491911+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 534.9422 ms
+
+2022-11-17T21:11:42.4186538+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 422 in 474.0106 ms
+
+2022-11-17T21:11:43.0969664+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 422 in 525.9627 ms
+
+2022-11-17T21:11:47.0992412+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 200 in 471.9424 ms
+
+2022-11-17T21:11:53.1990518+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 346.5335 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:11:53.2504217+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.21]
+
+2022-11-17T21:11:53.9776528+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 799.5448 ms
+
+2022-11-17T21:11:56.1261044+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 491.7715 ms
+
+2022-11-17T21:11:58.3646762+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 481.8019 ms
+
+2022-11-17T21:11:59.0833460+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 490.8413 ms
+
+2022-11-17T21:11:59.9583538+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 507.4106 ms
+
+2022-11-17T21:12:00.6418136+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 514.9284 ms
+
+2022-11-17T21:12:16.1512019+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 483.813 ms
+
+2022-11-17T21:12:23.7290822+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 499.6607 ms
+
+2022-11-17T21:12:25.0999595+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 472.8447 ms
+
+2022-11-17T21:12:27.1410071+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 502.9061 ms
+
+2022-11-17T21:12:28.0380830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 485.7657 ms
+
+2022-11-17T21:12:28.4556677+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 336.2055 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:12:29.3392977+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 884.2439 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:12:30.2355135+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 897.8069 ms
+
+2022-11-17T21:12:31.2744219+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 492.3158 ms
+
+2022-11-17T21:12:44.8691007+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.114.21]
+
+2022-11-17T21:12:59.7114237+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 764.1501 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:00.4953474+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 782.9047 ms
+
+2022-11-17T21:13:03.6468619+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 533.8404 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:17.0431300+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 826.9157 ms
+
+2022-11-17T21:13:17.5626006+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 140.82.121.6]
+
+2022-11-17T21:13:19.0503361+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 15317.7777 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:13:25.1304126+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 3766.5374 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:26.9264430+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 1795.3631 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:27.2604338+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 333.2747 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:31.3929531+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 4131.5768 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:34.8895497+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 3495.8715 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:35.5413355+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 651.1505 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:36.4239542+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 882.1284 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:36.9910713+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 565.7811 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:37.4086530+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 416.8389 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:38.2414612+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 832.615 ms
+
+2022-11-17T21:13:38.7768438+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 496.5799 ms
+
+2022-11-17T21:13:49.4693766+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 502.9802 ms
+
+2022-11-17T21:13:53.2913455+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 431.3593 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:13:54.0554930+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 755.0511 ms
+
+2022-11-17T21:13:54.9405685+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 470.7934 ms
+
+2022-11-17T21:13:55.4379456+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 454.9028 ms
+
+2022-11-17T21:14:07.3306175+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 478.5752 ms
+
+2022-11-17T21:14:19.5147483+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 481.8556 ms
+
+2022-11-17T21:14:20.6708797+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 506.7601 ms
+
+2022-11-17T21:14:47.1916748+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 3961.9783 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:15:01.6884150+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 14496.1828 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:15:06.6210337+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 4931.3185 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:15:07.4306498+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 808.8437 ms
+
+2022-11-17T21:15:14.6396544+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 487.0547 ms
+
+2022-11-17T21:15:15.1025132+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 449.7023 ms
+
+2022-11-17T21:15:16.4822117+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 484.8764 ms
+
+2022-11-17T21:15:54.4396511+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 460.2732 ms
+
+2022-11-17T21:15:56.6413462+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 462.2497 ms
+
+2022-11-17T21:16:05.3751485+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 493.0066 ms
+
+2022-11-17T21:16:08.8450412+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 469.3318 ms
+
+2022-11-17T21:16:20.5329554+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 610.1914 ms
+
+2022-11-17T21:16:21.0207988+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 465.7875 ms
+
+2022-11-17T21:16:22.4357317+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.27.177.116, 20.205.243.168, 140.82.121.5]
+
+2022-11-17T21:16:23.6287358+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.108.154, 185.199.111.154, 185.199.109.154]
+
+2022-11-17T21:16:24.2357358+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.21]
+
+2022-11-17T21:16:28.2922417+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 804.1953 ms
+
+2022-11-17T21:16:31.7762619+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 471.7898 ms
+
+2022-11-17T21:16:32.5823328+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 471.2782 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:16:33.4079472+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 823.8557 ms
+
+2022-11-17T21:16:46.7094203+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-11-17T21:16:47.3574664+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 598.7575 ms
+
+2022-11-17T21:16:47.5421822+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 663.9171 ms
+
+2022-11-17T21:17:04.8592021+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+bingciservice.koreasouth.cloudapp.azure.com->127.0.0.1
+
+2022-11-17T21:17:05.3189741+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook responded 502 in 220.1352 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:17:06.2582216+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook responded 200 in 939.2594 ms
+
+2022-11-17T21:17:06.6657145+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bingciservice.koreasouth.cloudapp.azure.com:443->[52.231.157.65]
+
+2022-11-17T21:17:20.0895008+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2022-11-17T21:17:34.0379873+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-11-17T21:17:34.5243129+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 483.5401 ms
+
+2022-11-17T21:17:38.6547396+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 1135.2839 ms
+
+2022-11-17T21:17:39.7594634+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 496.7419 ms
+
+2022-11-17T21:17:54.3116327+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 494.4061 ms
+
+2022-11-17T21:18:00.9068606+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 522.5199 ms
+
+2022-11-17T21:18:04.8992585+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 482.8095 ms
+
+2022-11-17T21:18:05.4321509+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 280.6509 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:18:06.2275470+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 794.6392 ms
+
+2022-11-17T21:18:06.9108687+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 479.3085 ms
+
+2022-11-17T21:18:08.5718947+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 790.3873 ms
+
+2022-11-17T21:18:36.4070190+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 3221.7549 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:18:36.8337867+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 425.4976 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:18:38.6493900+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 1812.9145 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:18:39.3757217+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 725.3706 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:18:50.2858162+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 510.1529 ms
+
+2022-11-17T21:18:54.6911767+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 502 in 15312.2953 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:19:07.5469893+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook responded 502 in 210.1732 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:19:07.9873134+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook responded 200 in 440.2848 ms
+
+2022-11-17T21:19:22.1379350+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 316.0369 ms
+
+2022-11-17T21:19:22.8122732+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 771.8378 ms
+
+2022-11-17T21:19:31.2309183+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-11-17T21:19:31.9766535+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:19:31.9823295+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup responded 200 in 728.9383 ms
+
+2022-11-17T21:19:32.2184559+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-11-17T21:19:32.2397270+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:19:33.3832617+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 200 in 497.5534 ms
+
+2022-11-17T21:19:38.1083904+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 456.1015 ms
+
+2022-11-17T21:19:38.7787464+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 483.1308 ms
+
+2022-11-17T21:19:44.0748206+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 1088.5665 ms
+
+2022-11-17T21:19:44.6170988+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 473.2828 ms
+
+2022-11-17T21:19:46.2558975+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 474.3059 ms
+
+2022-11-17T21:19:47.0800797+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 477.3085 ms
+
+2022-11-17T21:19:47.7933519+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 493.7733 ms
+
+2022-11-17T21:19:48.6123283+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 816.7979 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:19:50.4675541+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 1853.3253 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:19:58.1925577+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 7724.9136 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:19:59.0017343+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 808.2102 ms
+
+2022-11-17T21:20:02.9573213+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 458.17 ms
+
+2022-11-17T21:20:16.2044998+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2022-11-17T21:20:16.5556904+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 332.6436 ms
+
+2022-11-17T21:20:17.5023047+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1259.4078 ms
+
+2022-11-17T21:20:25.1671362+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup responded 200 in 731.4094 ms
+
+2022-11-17T21:20:25.4108543+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 322.0286 ms
+
+2022-11-17T21:20:26.5657506+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 200 in 521.4226 ms
+
+2022-11-17T21:21:00.3682069+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+docs.github.com->127.0.0.1
+
+2022-11-17T21:21:06.8249780+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.108.154, 185.199.111.154, 185.199.109.154]
+
+2022-11-17T21:21:07.3439280+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/articles/troubleshooting-connectivity-problems/ responded 301 in 5491.539 ms
+
+2022-11-17T21:21:07.7292066+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/articles/troubleshooting-connectivity-problems responded 302 in 377.8532 ms
+
+2022-11-17T21:21:08.4562328+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/cn/get-started/using-github/troubleshooting-connectivity-problems responded 200 in 722.3209 ms
+
+2022-11-17T21:21:08.9930399+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/css/8f5f2957e652fb2c.css responded 200 in 293.3331 ms
+
+2022-11-17T21:21:09.2095153+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/css/7236784f6419e956.css responded 200 in 491.6933 ms
+
+2022-11-17T21:21:09.6386192+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/88-27daef21941254f4.js responded 200 in 819.8939 ms
+
+2022-11-17T21:21:09.6386624+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/689-5bd95b2d2d3b6326.js responded 200 in 820.1612 ms
+
+2022-11-17T21:21:09.6523400+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/pages/_app-ef1dc7915a937dcd.js responded 200 in 835.9521 ms
+
+2022-11-17T21:21:09.6662536+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/main-61f8e82276c72e7c.js responded 200 in 849.9069 ms
+
+2022-11-17T21:21:09.6859239+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 518.6599 ms
+
+2022-11-17T21:21:09.6955557+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/664-aac6a7f9f21328e3.js responded 200 in 872.7354 ms
+
+2022-11-17T21:21:09.7087473+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/assets/cb-262/images/octicons/search-16.svg responded 200 in 476.5302 ms
+
+2022-11-17T21:21:09.7087474+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/kTmrrm_ccDoLJHiEUWQsm/_ssgManifest.js responded 200 in 880.8369 ms
+
+2022-11-17T21:21:09.7087682+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/pages/%5BversionId%5D/%5BproductId%5D/%5B...restPage%5D-eb331262646159f4.js responded 200 in 859.7875 ms
+
+2022-11-17T21:21:09.7170870+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/kTmrrm_ccDoLJHiEUWQsm/_buildManifest.js responded 200 in 890.9933 ms
+
+2022-11-17T21:21:09.7234100+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/998-9a5398d92cd1d174.js responded 200 in 904.1785 ms
+
+2022-11-17T21:21:09.7608174+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/framework-bb5c596eafb42b22.js responded 200 in 944.8421 ms
+
+2022-11-17T21:21:09.8678210+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/0e226fb0-f47400d931ae7427.js responded 200 in 1051.0997 ms
+
+2022-11-17T21:21:09.8841655+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/134-103e249a1f2c491d.js responded 200 in 1065.3418 ms
+
+2022-11-17T21:21:09.9482830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/744-0f5e1da3318e8b54.js responded 200 in 1130.1932 ms
+
+2022-11-17T21:21:09.9678466+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/webpack-8c365ff87a2c5074.js responded 200 in 1152.0013 ms
+
+2022-11-17T21:21:10.0074676+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/465-554fdd14a42cd2d1.js responded 200 in 1189.1504 ms
+
+2022-11-17T21:21:10.6842469+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/pages/index-d4bedbbbdfbdb106.js responded 200 in 176.6839 ms
+
+2022-11-17T21:21:10.7254207+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/pages/%5BversionId%5D/%5BproductId%5D-89cdaf9cd4ace7b4.js responded 200 in 217.4547 ms
+
+2022-11-17T21:21:10.7308372+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/chunks/414-ebe96ce0034f6bb7.js responded 200 in 224.295 ms
+
+2022-11-17T21:21:11.1088999+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/assets/cb-803/images/site/favicon.svg responded 200 in 212.4748 ms
+
+2022-11-17T21:21:11.1310014+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/_next/static/css/020635533b1173c9.css responded 200 in 221.282 ms
+
+2022-11-17T21:21:11.3581361+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://docs.github.com/assets/cb-600/images/site/favicon.png responded 200 in 213.3147 ms
+
+2022-11-17T21:21:11.7920157+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://docs.github.com/api/events responded 200 in 1490.7331 ms
+
+2022-11-17T21:21:14.5094515+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://docs.github.com/api/events responded 200 in 1258.931 ms
+
+2022-11-17T21:21:15.5666265+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19443.4004 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:21:18.6533476+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 423.3878 ms
+
+2022-11-17T21:21:19.2277403+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 398.7257 ms
+
+2022-11-17T21:21:19.4005099+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 570.6917 ms
+
+2022-11-17T21:21:19.5261503+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 568.4695 ms
+
+2022-11-17T21:21:20.2902060+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_mini-throt-e1eafe-b4bae11f7875.js responded 200 in 797.5249 ms
+
+2022-11-17T21:21:20.3477466+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-8f897479e1c2.js responded 200 in 855.0404 ms
+
+2022-11-17T21:21:20.3478688+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_details-dialog_ts-app_assets_modules_github_fetch_ts-app_assets_mod-be3144-43a14ccb9203.js responded 200 in 854.4962 ms
+
+2022-11-17T21:21:20.3481257+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_orgs_invitations_ts-app_assets_modules_github_sudo_ts-e1a71934279f.js responded 200 in 854.7089 ms
+
+2022-11-17T21:21:20.5684173+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/settings-a809293813e4.js responded 200 in 1074.5962 ms
+
+2022-11-17T21:21:21.2267618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 495.3818 ms
+
+2022-11-17T21:21:23.5018760+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 282.7474 ms
+
+2022-11-17T21:21:29.2397544+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.121.4, 140.82.121.3]
+
+2022-11-17T21:21:29.4467918+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 20215.7862 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:21:30.9337261+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2022-11-17T21:21:30.9465058+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.109.154, 185.199.110.154, 185.199.108.154]
+
+2022-11-17T21:21:31.1003705+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 10354.1216 ms
+
+2022-11-17T21:21:37.7179973+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 502 in 9922.212 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:21:38.1106085+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 502 in 377.0396 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:21:38.9276969+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 807.1311 ms
+
+2022-11-17T21:21:39.0761921+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 335.4204 ms
+
+2022-11-17T21:21:40.4340835+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 591.355 ms
+
+2022-11-17T21:21:40.5831418+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 327.8392 ms
+
+2022-11-17T21:21:42.9389757+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 500.3001 ms
+
+2022-11-17T21:21:43.1406772+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 653.2343 ms
+
+2022-11-17T21:21:44.8007059+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 297.1856 ms
+
+2022-11-17T21:21:47.2302634+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 293.5184 ms
+
+2022-11-17T21:21:48.2316727+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 297.2519 ms
+
+2022-11-17T21:21:48.7853730+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 422 in 619.9649 ms
+
+2022-11-17T21:21:49.6378025+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 200 in 549.9324 ms
+
+2022-11-17T21:21:53.1386431+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 396.6643 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:21:53.6627941+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 524.7278 ms
+
+2022-11-17T21:21:54.7694644+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.114.21]
+
+2022-11-17T21:21:56.2673243+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 561.2219 ms
+
+2022-11-17T21:21:56.8946895+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 544.7343 ms
+
+2022-11-17T21:21:58.3510449+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 521.9799 ms
+
+2022-11-17T21:21:58.9725333+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 387.7938 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:21:59.5682150+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 599.5381 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:22:00.2496134+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 681.9574 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:22:01.0739139+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 822.912 ms
+
+2022-11-17T21:22:02.0955513+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 679.4783 ms
+
+2022-11-17T21:22:08.7529185+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 675.873 ms
+
+2022-11-17T21:22:09.9546138+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 743.295 ms
+
+2022-11-17T21:22:12.5149759+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 648.9378 ms
+
+2022-11-17T21:22:13.7166000+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 735.3529 ms
+
+2022-11-17T21:22:15.5304058+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 659.5375 ms
+
+2022-11-17T21:22:16.3915634+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 662.7354 ms
+
+2022-11-17T21:22:21.6140767+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.121.3, 140.82.121.4]
+
+2022-11-17T21:22:24.4486680+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup responded 200 in 1818.2099 ms
+
+2022-11-17T21:22:24.5150036+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 313.6303 ms
+
+2022-11-17T21:22:46.7112765+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.114.22]
+
+2022-11-17T21:22:47.0662256+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1464.1868 ms
+
+2022-11-17T21:22:54.6628410+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19150.4074 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:23:00.9016807+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
+2022-11-17T21:23:01.9172003+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 16277.8928 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:26:25.1521009+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-11-17T21:26:25.5317378+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-11-17T21:26:25.5452526+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-11-17T21:26:25.5467340+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-11-17T21:26:25.7998195+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.3，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-11-17T21:26:37.3486640+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-11-17T21:26:38.9062834+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://api.github.com/_private/browser/stats responded 502 in 171.5619 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:26:40.0148431+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.121.3]
+
+2022-11-17T21:26:41.1580285+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 2296.7748 ms
+
+2022-11-17T21:26:46.4835065+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.108.154, 185.199.111.154, 185.199.110.154]
+
+2022-11-17T21:26:47.1230860+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5]
+
+2022-11-17T21:26:52.5774127+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.112.22]
+
+2022-11-17T21:26:53.7244500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bingciservice.koreasouth.cloudapp.azure.com:443->[52.231.157.65]
+
+2022-11-17T21:26:54.6801459+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.108.154, 185.199.111.154, 185.199.110.154]
+
+2022-11-17T21:27:03.5932303+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.114.21]
+
+2022-11-17T21:27:12.7085529+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-11-17T21:27:13.9975825+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-11-17T21:27:14.1398524+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:27:14.2343391+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 1363.5696 ms
+
+2022-11-17T21:27:14.5977966+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-11-17T21:27:14.6066158+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:27:17.7228563+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png responded 502 in 490.9023 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:27:17.7303451+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-cursor.png responded 502 in 499.2428 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:27:17.7361325+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp responded 502 in 504.9902 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:27:17.7395895+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png responded 502 in 508.0755 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:27:17.9830848+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/hero-drone.webp responded 304 in 753.8915 ms
+
+2022-11-17T21:27:18.0249275+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home/globe.jpg responded 304 in 794.6635 ms
+
+2022-11-17T21:27:18.0248543+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp responded 304 in 794.3163 ms
+
+2022-11-17T21:27:18.2458566+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png responded 200 in 233.0773 ms
+
+2022-11-17T21:27:18.2677253+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png responded 200 in 255.2136 ms
+
+2022-11-17T21:27:18.4467309+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-unicat22.png responded 304 in 1217.0534 ms
+
+2022-11-17T21:27:18.4471122+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-cursor.png responded 200 in 198.2199 ms
+
+2022-11-17T21:27:18.5184451+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp responded 200 in 506.918 ms
+
+2022-11-17T21:27:18.5570821+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2022-11-17T21:27:20.4491953+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 403.0585 ms
+
+2022-11-17T21:27:20.8265851+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 804.1553 ms
+
+2022-11-17T21:27:20.8950099+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 782.0326 ms
+
+2022-11-17T21:27:20.9539161+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 401.4976 ms
+
+2022-11-17T21:27:21.2994014+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 717.8353 ms
+
+2022-11-17T21:27:21.4234618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 451.053 ms
+
+2022-11-17T21:27:21.8595956+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1546.2455 ms
+
+2022-11-17T21:27:22.4607527+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 824.4595 ms
+
+2022-11-17T21:27:24.5745081+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 453.4435 ms
+
+2022-11-17T21:27:31.1982910+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 469.1807 ms
+
+2022-11-17T21:27:34.1193373+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.113.3, 140.82.121.3]
+
+2022-11-17T21:27:34.3391015+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 454.5168 ms
+
+2022-11-17T21:27:34.3618575+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 461.2699 ms
+
+2022-11-17T21:27:38.1530428+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19433.6776 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:27:38.2556415+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/password_reset responded 200 in 1273.9066 ms
+
+2022-11-17T21:27:38.7225588+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 448.7209 ms
+
+2022-11-17T21:27:40.6860451+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19045.7035 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:28:01.1803573+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1552.7407 ms
+
+2022-11-17T21:28:04.5880834+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.113.21, 140.82.112.21]
+
+2022-11-17T21:28:15.3274776+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_reset responded 200 in 707.8207 ms
+
+2022-11-17T21:28:15.8558688+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 460.7362 ms
+
+2022-11-17T21:28:18.6646877+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 572.3076 ms
+
+2022-11-17T21:28:18.6918883+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19061.8459 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:28:18.7141943+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 626.3402 ms
+
+2022-11-17T21:28:21.2791969+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 478.0969 ms
+
+2022-11-17T21:28:23.1956096+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 473.9671 ms
+
+2022-11-17T21:28:23.5257773+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 776.8928 ms
+
+2022-11-17T21:28:52.6073178+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 464.4612 ms
+
+2022-11-17T21:28:53.0916307+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+fp-afd-nocache-ccp.azureedge.net->127.0.0.1
+
+2022-11-17T21:28:53.1490292+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.113.21, 140.82.114.22]
+
+2022-11-17T21:29:17.1797942+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_reset responded 200 in 649.7728 ms
+
+2022-11-17T21:29:20.1678263+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 826.0733 ms
+
+2022-11-17T21:29:41.1063787+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.121.5, 140.82.121.6]
+
+2022-11-17T21:29:51.1187690+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 1375.2366 ms
+
+2022-11-17T21:29:52.0452184+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-unicat22.png responded 304 in 806.6045 ms
+
+2022-11-17T21:29:52.0627777+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/hero-drone.webp responded 304 in 833.5665 ms
+
+2022-11-17T21:29:52.0815356+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp responded 304 in 856.3468 ms
+
+2022-11-17T21:29:52.2284046+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home/globe.jpg responded 304 in 540.9894 ms
+
+2022-11-17T21:29:52.2643678+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png responded 304 in 213.4322 ms
+
+2022-11-17T21:29:52.2943171+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png responded 304 in 241.6437 ms
+
+2022-11-17T21:29:52.7280692+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp responded 304 in 678.0402 ms
+
+2022-11-17T21:29:52.8287187+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/modules/site/codespaces/illo-cursor.png responded 304 in 333.1044 ms
+
+2022-11-17T21:29:55.1641927+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 2683.9586 ms
+
+2022-11-17T21:29:55.8163155+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 339.8007 ms
+
+2022-11-17T21:29:56.0394041+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 583.2852 ms
+
+2022-11-17T21:29:56.2394202+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 366.3676 ms
+
+2022-11-17T21:29:56.3224844+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 865.8657 ms
+
+2022-11-17T21:29:56.4081789+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 861.4151 ms
+
+2022-11-17T21:29:56.7936962+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 538.9679 ms
+
+2022-11-17T21:30:03.7675386+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 608.8738 ms
+
+2022-11-17T21:30:05.6106924+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 441.3156 ms
+
+2022-11-17T21:30:07.9795113+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 462.3144 ms
+
+2022-11-17T21:30:08.3163080+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 502 in 543.5986 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:30:09.7295402+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/email_validity_checks responded 200 in 1413.0133 ms
+
+2022-11-17T21:30:11.5623174+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19049.9708 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:30:13.5258632+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 595.5367 ms
+
+2022-11-17T21:30:14.5950615+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 422 in 948.844 ms
+
+2022-11-17T21:30:17.0305956+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 418.1222 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:30:17.6965788+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 664.7669 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:30:18.3802532+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 682.5234 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:30:18.7138400+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 332.7305 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-11-17T21:30:19.3114647+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 502 in 596.8964 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-11-17T21:30:20.0467714+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 734.1117 ms
+
+2022-11-17T21:30:21.5271189+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_validity_checks responded 200 in 562.4881 ms
+
+2022-11-17T21:30:22.2681754+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19092.2961 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:30:23.0618684+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 492.4783 ms
+
+2022-11-17T21:30:26.6636773+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 596.8083 ms
+
+2022-11-17T21:30:27.3046776+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 542.2704 ms
+
+2022-11-17T21:30:28.8152517+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 422 in 559.9178 ms
+
+2022-11-17T21:30:30.5234118+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 562.0458 ms
+
+2022-11-17T21:30:31.0710547+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup_check/username responded 200 in 544.8943 ms
+
+2022-11-17T21:30:41.9394448+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/signup responded 200 in 992.2596 ms
+
+2022-11-17T21:30:42.1686867+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 565.9385 ms
+
+2022-11-17T21:31:03.1394710+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/signup responded 200 in 512.6416 ms
+
+2022-11-17T21:31:04.8808583+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 307.3606 ms
+
+2022-11-17T21:31:05.2676334+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 304.1344 ms
+
+2022-11-17T21:31:05.9852506+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 692.8453 ms
+
+2022-11-17T21:31:06.4674124+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 517.7678 ms
+
+2022-11-17T21:31:06.5378884+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 598.3612 ms
+
+2022-11-17T21:31:08.9114895+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 482.1861 ms
+
+2022-11-17T21:31:10.6439427+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 483.3283 ms
+
+2022-11-17T21:31:10.7157130+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 527.3792 ms
+
+2022-11-17T21:31:16.4398713+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.113.3, 140.82.121.3, 140.82.121.4]
+
+2022-11-17T21:31:23.8196943+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 20896.2241 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:31:37.8758425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.121.3, 140.82.113.3, 140.82.121.4]
+
+2022-11-17T21:31:41.3187866+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.113.3]
+
+2022-11-17T21:31:45.9392942+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.108.154, 185.199.111.154]
+
+2022-11-17T21:31:45.9429803+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.108.154, 185.199.111.154]
+
+2022-11-17T21:31:47.1664091+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.108.154, 185.199.109.154]
+
+2022-11-17T21:31:47.1701756+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.108.154, 185.199.109.154]
+
+2022-11-17T21:31:53.9017829+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.21]
+
+2022-11-17T21:32:04.8264641+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.114.21]
+
+2022-11-17T21:32:53.5862006+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-11-17T21:32:53.5951507+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-11-17T21:33:08.9545820+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/session responded 502 in 15338.4739 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:33:08.9791436+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-11-17T21:33:09.6862639+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/favicon.ico responded 200 in 429.2569 ms
+
+2022-11-17T21:33:09.7546597+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 763.9062 ms
+
+2022-11-17T21:33:16.4040361+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.121.3]
+
+2022-11-17T21:33:23.9674590+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/login responded 200 in 379.7598 ms
+
+2022-11-17T21:33:24.0394250+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:33:24.1241168+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-11-17T21:33:24.1255778+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-11-17T21:33:24.5085337+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2022-11-17T21:33:25.0185316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 483.5813 ms
+
+2022-11-17T21:33:25.8114176+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1285.6556 ms
+
+2022-11-17T21:33:26.4137132+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 488.385 ms
+
+2022-11-17T21:33:36.2976257+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/session responded 200 in 643.7413 ms
+
+2022-11-17T21:33:36.7757294+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 450.678 ms
+
+2022-11-17T21:33:37.1386435+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 400 in 387.4784 ms
+
+2022-11-17T21:33:37.2387080+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 499.1478 ms
+
+2022-11-17T21:33:39.9627302+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 492.0662 ms
+
+2022-11-17T21:33:44.8140374+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/password_reset responded 200 in 376.7242 ms
+
+2022-11-17T21:33:44.8952509+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 460.1295 ms
+
+2022-11-17T21:33:45.2777926+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 452.9967 ms
+
+2022-11-17T21:33:48.4696350+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 512.7616 ms
+
+2022-11-17T21:33:53.5301501+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 456.8752 ms
+
+2022-11-17T21:33:54.1209809+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.22, 140.82.112.21]
+
+2022-11-17T21:34:07.0154055+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 19054.4723 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2022-11-17T21:34:37.1349432+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/password_reset responded 200 in 644.6451 ms
+
+2022-11-17T21:34:37.6282864+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 456.1842 ms
+
+2022-11-17T21:34:54.4638356+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 754.3275 ms
+
+2022-11-17T21:35:13.9947934+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
+2022-11-17T21:38:45.9180065+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-11-17T21:38:46.0378237+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-11-17T21:38:46.0403225+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-11-17T21:38:46.0416647+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-11-17T21:38:46.1478054+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.3，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-11-17T21:38:50.1393696+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-11-17T21:38:55.0631196+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+bingciservice.koreasouth.cloudapp.azure.com:443->[52.231.157.65]
+
+2022-11-17T21:39:00.3066467+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.110.154, 185.199.109.154, 185.199.108.154]
+
+2022-11-17T21:39:05.4576073+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168]
+
+2022-11-17T21:39:12.7449216+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.113.22, 140.82.114.21]
+
+2022-11-17T21:39:14.5341670+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+

@@ -1,0 +1,26 @@
+[
+  {
+    "host": "bingciservice.koreasouth.cloudapp.azure.com",
+    "port": 443
+  },
+  {
+    "host": "api.github.com",
+    "port": 443
+  },
+  {
+    "host": "github.githubassets.com",
+    "port": 443
+  },
+  {
+    "host": "docs.github.com",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "collector.github.com",
+    "port": 443
+  }
+]
